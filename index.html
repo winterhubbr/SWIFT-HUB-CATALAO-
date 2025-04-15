@@ -64,6 +64,19 @@
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .service-name {
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+
+    .service-icon {
+      width: 32px;
+      height: 32px;
+      margin-right: 0.5rem;
     }
 
     a.btn-solicitar {
@@ -81,9 +94,8 @@
 
     footer {
       text-align: center;
-      background-color: #B22234;
-      padding: 1.5rem;
       background-color: #333;
+      padding: 1.5rem;
       color: white;
     }
 
@@ -127,20 +139,20 @@
     <section class="services">
       <h2>Serviços Disponíveis</h2>
       <ul>
-        <li class="service-item">Limpeza de Estofados <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Limpeza de Estofados" target="_blank">Solicitar</a></li>
-        <li class="service-item">Encanador <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Encanador" target="_blank">Solicitar</a></li>
-        <li class="service-item">Detetização <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Detetização" target="_blank">Solicitar</a></li>
-        <li class="service-item">Jardineiro <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Jardineiro" target="_blank">Solicitar</a></li>
-        <li class="service-item">Marcineiro <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Marcineiro" target="_blank">Solicitar</a></li>
-        <li class="service-item">Eletricista <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Eletricista" target="_blank">Solicitar</a></li>
-        <li class="service-item">Pintor <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Pintor" target="_blank">Solicitar</a></li>
-        <li class="service-item">Montagem de Móveis <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Montagem de Móveis" target="_blank">Solicitar</a></li>
-        <li class="service-item">Limpeza de Caixa d'Água <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Limpeza de Caixa d'Água" target="_blank">Solicitar</a></li>
-        <li class="service-item">Troca de Óleo no Local <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Troca de Óleo no Local" target="_blank">Solicitar</a></li>
-        <li class="service-item">Vigilância Temporária <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Vigilância Temporária" target="_blank">Solicitar</a></li>
-        <li class="service-item">Instalação de Câmeras <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Instalação de Câmeras" target="_blank">Solicitar</a></li>
-        <li class="service-item">Frete de Mudanças <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Frete de Mudanças" target="_blank">Solicitar</a></li>
-        <li class="service-item">Serralheria <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Serralheria" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png" alt="Limpeza">Limpeza de Estofados</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Limpeza de Estofados" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/2784/2784445.png" alt="Encanador">Encanador</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Encanador" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/1490/1490822.png" alt="Detetização">Detetização</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Detetização" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/3069/3069172.png" alt="Jardineiro">Jardineiro</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Jardineiro" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/3313/3313869.png" alt="Marcineiro">Marcineiro</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Marcineiro" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png" alt="Eletricista">Eletricista</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Eletricista" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/809/809957.png" alt="Pintor">Pintor</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Pintor" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/1042/1042330.png" alt="Montagem de Móveis">Montagem de Móveis</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Montagem de Móveis" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/2913/2913990.png" alt="Caixa d'Água">Limpeza de Caixa d'Água</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Limpeza de Caixa d'Água" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/1046/1046799.png" alt="Troca de Óleo">Troca de Óleo no Local</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Troca de Óleo no Local" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/3006/3006875.png" alt="Vigilância">Vigilância Temporária</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Vigilância Temporária" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/2920/2920103.png" alt="Câmeras">Instalação de Câmeras</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Instalação de Câmeras" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/1075/1075108.png" alt="Frete">Frete de Mudanças</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Frete de Mudanças" target="_blank">Solicitar</a></li>
+        <li class="service-item"><span class="service-name"><img class="service-icon" src="https://cdn-icons-png.flaticon.com/512/2769/2769600.png" alt="Serralheria">Serralheria</span><a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Serralheria" target="_blank">Solicitar</a></li>
       </ul>
     </section>
   </main>
