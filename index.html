@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swift Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .services {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .services h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li.service-item {
+      background: #f1f1f1;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    a.btn-solicitar {
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    a.btn-solicitar:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #333;
+      color: white;
+    }
+
+    #whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+      background-color: #25d366;
+      border-radius: 50%;
+      padding: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    #whatsapp-button:hover {
+      transform: scale(1.1);
+    }
+
+    #whatsapp-button img {
+      width: 40px;
+      height: 40px;
+    }
+
+    @media (max-width: 600px) {
+      li.service-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Swift Hub</h1>
+    <p>Serviços rápidos e confiáveis na sua porta!</p>
+  </header>
+
+  <main>
+    <section class="services">
+      <h2>Serviços Disponíveis</h2>
+      <ul>
+        <li class="service-item">Limpeza de Estofados <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Limpeza de Estofados" target="_blank">Solicitar</a></li>
+        <li class="service-item">Encanador <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Encanador" target="_blank">Solicitar</a></li>
+        <li class="service-item">Detetização <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Detetização" target="_blank">Solicitar</a></li>
+        <li class="service-item">Jardineiro <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Jardineiro" target="_blank">Solicitar</a></li>
+        <li class="service-item">Marcineiro <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Marcineiro" target="_blank">Solicitar</a></li>
+        <li class="service-item">Eletricista <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Eletricista" target="_blank">Solicitar</a></li>
+        <li class="service-item">Pintor <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Pintor" target="_blank">Solicitar</a></li>
+        <li class="service-item">Montagem de Móveis <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Montagem de Móveis" target="_blank">Solicitar</a></li>
+        <li class="service-item">Limpeza de Caixa d'Água <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Limpeza de Caixa d'Água" target="_blank">Solicitar</a></li>
+        <li class="service-item">Troca de Óleo no Local <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Troca de Óleo no Local" target="_blank">Solicitar</a></li>
+        <li class="service-item">Vigilância Temporária <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Vigilância Temporária" target="_blank">Solicitar</a></li>
+        <li class="service-item">Instalação de Câmeras <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Instalação de Câmeras" target="_blank">Solicitar</a></li>
+        <li class="service-item">Frete de Mudanças <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Frete de Mudanças" target="_blank">Solicitar</a></li>
+        <li class="service-item">Serralheria <a class="btn-solicitar" href="https://w.app/swifthubcatalao?text=Quero solicitar o serviço de Serralheria" target="_blank">Solicitar</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Swift Hub. Todos os direitos reservados.</p>
+  </footer>
+
+  <a href="https://w.app/swifthubcatalao" target="_blank" id="whatsapp-button" aria-label="Fale conosco pelo WhatsApp">
+    <img src="https://cdn.jsdelivr.net/gh/wildanvin/whatsapp-float-button/whatsapp.svg" alt="WhatsApp" />
+  </a>
+</body>
+</html>
